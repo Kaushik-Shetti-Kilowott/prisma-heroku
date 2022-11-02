@@ -38,7 +38,8 @@ const read = await prisma.account.findUnique({
     }
   })
   console.log("read",read);
-  res.json(read)
+//   res.json(read)
+  res.json({message:"Hi"})
 })
 
 //Function to update account
